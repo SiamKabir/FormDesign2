@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValidationFormt</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="main">
+        <div class="name">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="r-form">
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <th><input type="text"id="Name"></th>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <th><input type="email"id="Email"></th>
+                </tr>
+                <tr>
+                    <th>Password:</th>
+                    <th><input type="password" name="" id="password"></th>
+                </tr>
+                <tr>
+                    <th>Confirm Password:</th>
+                    <th><input type="password" name="" id="c_password"></th>
+                </tr>
+            </table>
+            <p id="message"></p>
+           
+        </div>
+        <div class="btn">
+            <input type="button" value="Submit" onclick="valid()">
+        </div>
+        <div class="last">
+            <p>"Happy Coding"</p>
+        </div>
+
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
